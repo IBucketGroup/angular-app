@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/IBucketGroup/angular-app#readme",
   "dependencies": {
+    "bower": "^1.7.9"
   }
 }

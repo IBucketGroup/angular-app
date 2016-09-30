@@ -1,0 +1,19 @@
+{
+  "name": "ibucketgroup-angular",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/IBucketGroup/angular-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
