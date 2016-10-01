@@ -1,5 +1,5 @@
 angular.module('IBucketGroup').component('navComponent', {
-    templateUrl: 'views/nav.html',
+    templateUrl: '/views/nav.html',
     controller: function NavCtrl() {
         this.phones = [
             {
