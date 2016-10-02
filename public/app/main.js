@@ -4,16 +4,23 @@
     angular.module('IBucketGroup', [
         'ngSanitize',
         'ngToast',
+        'firebase',
+        'mgcrea.ngStrap',
+        'ngAnimate',
+        'axm.instagram',
         'app.router',
         'app.auth',
         'app.nav',
-        'firebase',
-        'axm.instagram'
     ]).config(['ngToastProvider', function (ngToastProvider) {
         ngToastProvider.configure({
             animation: 'slide',
             horizontalPosition: 'center',
             verticalPosition: 'top'
+        });
+    }]).config(['$dropdownProvider', function ($dropdownProvider) {
+        angular.extend($dropdownProvider.defaults, {
+            animation: 'am-flip-x',
+            trigger: 'click'
         });
     }]).run(function (instagramFactory, ngToast, $rootScope, $location) {
         instagramFactory.callback(function (err, user) {
