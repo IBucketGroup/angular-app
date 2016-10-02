@@ -22,7 +22,10 @@
     "firebase": "^3.4.1",
     "font-awesome": "^4.6.3",
     "bootstrap-social": "^5.0.0",
-    "angular-route": "^1.5.8"
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "ngToast": "ngtoast#^2.0.0",
+    "angular-animate": "^1.5.8"
   },
   "resolutions": {
     "font-awesome": "^4.6.3"

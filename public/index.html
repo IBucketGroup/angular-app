@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="vendor/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="vendor/ngToast/dist/ngToast-animations.css">
+    <link rel="stylesheet" href="vendor/ngToast/dist/ngToast.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +21,9 @@
     <![endif]-->
 </head>
 <body>
+<!-- flash messages -->
+<toast></toast>
+<!-- flash messages /-->
 
 <!-- nav -->
 <nav-component></nav-component>
@@ -41,8 +46,11 @@
 
 <!-- Angular libs -->
 <script src="vendor/angular/angular.js"></script>
+<script src="vendor/angular-sanitize/angular-sanitize.js"></script>
+<script src="vendor/angular-animate/angular-animate.js"></script>
 <script src="vendor/angular-route/angular-route.js"></script>
 <script src="vendor/angularfire/dist/angularfire.js"></script>
+<script src="vendor/ngToast/dist/ngToast.js"></script>
 
 <!-- App scripts -->
 <script src="app/router.js"></script>
