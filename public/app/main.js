@@ -6,6 +6,7 @@
         'ngToast',
         'app.router',
         'app.auth',
+        'app.nav',
         'firebase',
         'axm.instagram'
     ]).config(['ngToastProvider', function (ngToastProvider) {
